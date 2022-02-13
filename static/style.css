@@ -159,7 +159,7 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 45px;
+  height: 60px;
   background-color: rgba(0, 0, 0, 0.733);
   margin: 0;
 }
