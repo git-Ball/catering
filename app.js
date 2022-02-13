@@ -62,7 +62,7 @@ return gliderDowngrade()
 
 
 document.body.onresize = reportWindowSize;
-document.addEventListener('resize', reportWindowSize);
+// document.addEventListener('resize', reportWindowSize);
 
 // let clientWidth = document.body.clientWidth
 // clientWidth.addEventListener('resize', reportWindowSize);
