@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+   <script src="/app.js" type="module"></script>
+
+    <title>Gourmet au Catering</title>
+  </head>
+  <body>
+    <!-- <p><span id="height"></span></p> -->
+    <p><span id="width"></span></p>
+      <div class="scrollTop" >
+ 
+      </div>
+    <header>
+      <nav class="navbar">
+        
+        <div class="brand-title"> Gourmet au Catering <i class="fa-solid fa-plate-utensils"> </i></div>
+          <!-- <a href="#" class="w3-bar-item w3-button"></a> -->
+          <a href="#" class="toggle-button" id="toggle-btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#about" class="w3-bar-item w3-button">About</a></li>
+                <li><a href="#menu" class="w3-bar-item w3-button">Menu</a></li>
+                <li><a href="#events" class="w3-bar-item w3-button">Events</a></li>
+                <li><a href="#contacts" class="w3-bar-item w3-button">Contacts</a></li>
+            </ul>
+          
+          
+          
+        </div>
+      </nav>
+      <img class="header-img" src="./static/images/hamburger.jpg" alt="Hamburger Catering"
+     width="100%">
+    </header>
+<main>
+   
+<section class="about" id="about">
+    <article class="about-content">
+        <h1 class="about-header">About Catering</h1><br>
+        <h5 >Tradition since 1889</h5>
+        <p class="about-info">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+            consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.We only use <span
+                class="about-span">seasonal</span> ingredients.</p>
+        <p class="about-grey">Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+            temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</article>
+<article class="about-img-wrapper">
+    <img src="./static/images/wallpaper1.jpg" class="cattering-img"
+        alt="Menu" width="100%">
+</article>
+</section>
+
+<section class="menu" id="menu">
+    <article class="menu-content">
+        <h1 class="menu-header">Our Menu</h1><br>
+        <h4>Bread Basket</h4>
+        <p class="menu-assortment">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+
+        <h4>Honey Almond Granola with Fruits</h4>
+        <p class="menu-assortment">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+
+        <h4>Belgian Waffle</h4>
+        <p class="menu-assortment">Vanilla flavored batter with malted flour 7.50</p><br>
+
+        <h4>Scrambled eggs</h4>
+        <p class="menu-assortment">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+
+        <h4>Blueberry Pancakes</h4>
+        <p class="menu-assortment">With syrup, butter and lots of berries 8.50</p>
+</article>
+<article class="menu-img-wrapper">
+    <img src="./static/images/cake.jpg" class="cattering-img"
+        alt="Menu" style="width:100%">
+</article>
+</section>
+<section class="portfolio" id="events">
+    
+        <h1 class="portfolio-header">Latest Events</h1><br>
+        <div class="glider-contain">
+        <button aria-label="Previous" class="glider-prev">«</button>
+
+            <div class="glider">
+                <div class="event">
+                    <img class="event-img" src="./static/images/e1.jpg" 
+                    >
+                </div>
+                    <div class="event">
+                        <img class="event-img" src="./static/images/e2.jpeg" 
+                        >
+                    </div>
+                    <div class="event">
+                        <img class="event-img" src="./static/images/e4.jpg" 
+                        >
+                    </div>
+         
+                    <div class="event">
+                        <img class="event-img" src="./static/images/e6.jpg" 
+                        >
+                    </div>
+                    <div class="event">
+                        <img class="event-img" src="./static/images/e7.jpg" 
+                        >
+                    </div>
+                    <div class="event hidden" id='showMore'>
+                        <img class="event-img" src="./static/images/e8.jpg" 
+                        >
+                    </div>
+          
+           
+           
+            <!-- <div role="tablist" class="dots"></div> -->
+
+          </div>
+          <button aria-label="Next" class="glider-next">»</button>
+<div class="button-wrapper">
+</div>        
+<button class="loadMore">Load more</button>
+
+</div>        
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script> 
+  <!-- <script>
+    
+        new Glider(document.querySelector('.glider'), {
+  slidesToShow: 1,
+  slideToScroll:1,
+//   dots: '#dots',
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  }
+});
+   
+    </script> -->
+</section>
+
+    <section class="contact-content" id="contacts">
+       
+     <article class="info-wrapper">
+        <h1 class="info-header">Contacts</h1><br>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater
+            the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact
+            us.</p>
+        <p class="contact-info"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com</p>
+     </article>
+
+    </section>
+
+
+</main>
+    <footer>
+       <span class="footer-info">Created for eWave Demo</span>
+    </footer>
+  </body>
+</html>
